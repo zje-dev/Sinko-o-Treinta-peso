@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF8">
+		<link rel="stylesheet" type="text/css" href="./SeEseEse/Estil.css"/>
+		<script src="./JabaEscript/App.js"></script>
+		<script src="./JabaEscript/dom-chef.js"></script>
+		<title>+5 Peso</title>
+	</head>
+	<body>
+		<div id="menu">
+			<img src="./YemeJe/Decoration.png"/>
+			<input type="range" id="largo" min="0" max="5" value="0" onchange="menu()"/>
+			<br>
+			<center>
+				<input type="button" id="menu-custom" value="menu" style="padding: 6px" onclick="menuOF(true, this)">
+			</center>
+		</div>
+		<center>
+			<canvas id="back" width="380px" height="300px"></canvas>
+			<canvas id="area" width="380px" height="300px"></canvas>
+		</center>
+		<div id="real-menu-custom" style="display: none">
+			<table>
+				<tr>
+					<th>Fondo: </th>
+					<th>
+						<div onclick="BGC(this)" style="background-color: var(--C1)">
+						</div>
+					</th>
+				</tr>
+				<tr>
+					<th>Texto: </th>
+					<th>
+						<div onclick="TC(this)" style="background-color: var(--C1)">
+						</div>
+					</th>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
