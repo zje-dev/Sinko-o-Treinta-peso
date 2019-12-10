@@ -1,1 +1,1 @@
-La ideaza tras este programon es alargar al meme muerto de sinko peso y hacerle caminar.
+La ideaza tras este programon es alargar al meme muerto de sinko peso.
